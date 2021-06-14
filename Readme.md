@@ -1,0 +1,1 @@
+Scripts from https://www.udemy.com/course/engenharia-de-dados-com-apache-beam-google-dataflow-gcp/
