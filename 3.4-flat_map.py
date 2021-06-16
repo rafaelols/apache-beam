@@ -4,8 +4,8 @@ p1 = beam.Pipeline()
 
 Collection = (
     p1
-    |beam.io.ReadFromText('poema.txt')
+    |beam.io.ReadFromText('data/poema.txt')
     |beam.FlatMap(lambda record: record.split(' '))
-    |beam.io.WriteToText('resultado.txt')
+    |beam.io.WriteToText('data/resultado.txt')
 )
 p1.run()
